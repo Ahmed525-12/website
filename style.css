@@ -1,0 +1,112 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background: border-box;
+}
+*::selection{
+    background-color: #db6d13 ;
+    color: #fff;
+}
+body,html{
+  background-color: #ffffff;
+  
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: #e06f19;
+  border-radius: 4%;
+  height: 25%;
+  width: 25%;
+  transition: background-color 0.5s linear;
+
+}
+
+html::-webkit-scrollbar-thumb:hover{
+  background-color: #e06f19;
+  transition: background-color 0.5s linear;
+}
+
+html::-webkit-scrollbar-track{
+  background-color: #ffffff;
+}
+html::-webkit-scrollbar{
+  width: 12px;
+ 
+}
+/* ---------------------------------------------------------------top button-------------------------------------- */
+.i_button_top{
+    display: inline-block;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+.a_button_top{
+    display: none;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    z-index: 4500;
+    opacity: .5;
+}
+.a_button_top:hover{
+    background: rgb(22, 22, 22);
+    opacity: .5;
+}
+.i_button_top:hover{
+    color: #db6d13 !important;
+}
+.a_button_top.scrollh{
+    display: block;
+    transition: display 0.5s linear;
+}
+
+/* ----------------------------------------------------------------end top button--------------------------------- */
+
+
+
+/* <!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------- nav ---------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- --> */
+.nav-color{
+    color: #271606 !important;
+transition: color 0.5s ease-in-out;
+}
+.nav-color:hover{
+    color: #271606 !important;
+}
+.nav-linkcolor{
+    color: #271606 !important;
+    transition: color 0.5s ease-in-out , margin-left 0.5s ease-in-out;
+}
+.nav-linkcolor:hover{
+    color: #271606 !important;
+    margin-left: 5px;
+}
+.fixed-top.scrolled{
+    background-color:#ffb482 !important;
+    transition:background-color 0.5s linear;
+}
+.active{
+    color: #b16925 !important;
+    margin-left: 5px;
+    
+  }
+/* <!-- ------------------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------- nav ---------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- --> */
+.header{
+    padding-top: 12.5pc;
+}
