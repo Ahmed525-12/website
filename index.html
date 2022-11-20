@@ -44,9 +44,9 @@
               <li class="nav-item">
                 <a class="nav-link alink nav-linkcolor" href="#OOP">OOP</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link alink nav-linkcolor" href="#finalexercise">Final Exercise</a>
-              </li>
+            
+            
+            
           </ul>
         </div>
     </div>
@@ -344,83 +344,7 @@ public interface base {<br>
 </p>
       </section>
 
-      <section class="p-5 container">
-        <h2 class="p-5 text-center"id="finalexercise">Final Exercise  </h2>
-        <p class="text-danger">intrface base</p> <br><br>      
-        method salary <br>
-       method setPerson    <br>
-       method show person<br>
-       package javaapplication6;<br>
 
-       /**<br>
-        *<br>
-        * @author ahmedsayed<br>
-        */<br>
-       public interface base {<br>
-           public double salary();<br>
-           public void setEmployee();<br>
-           public void showEmployee();<br>
-       }<br><br><br>
-       <p class="text-danger">class Employee</p> <br><br>  
-       variables name , age , title , hour of work , salary<br>  
-       two constractor 1- defult 2- name , age,  title, hour of work,salary<br>  
-       set Employee scanner     <br>  
-       method salary  hour of work *1000<br>  
-       method show Employee <br>  <br> 
-
-
-       */<br> 
-       package javaapplication6;<br> 
-       import java.util.*;<br> 
-       /**<br> 
-        *<br> 
-        * @author ahmedsayed<br> 
-        */<br> 
-       public class Employee implements base{<br> 
-           String name;<br> 
-           int age;<br> 
-           String title;<br> 
-           double hourOfWork;<br> 
-           double salary;<br> 
-           public Employee(){}<br> 
-           public Employee(String name,int age,String title,double hourOfWork){<br> 
-               this.name=name;<br> 
-               this.age=age;<br> 
-               this.title=title;<br> 
-               this.hourOfWork=hourOfWork;<br> 
-           }<br> 
-       
-           @Override<br> 
-           public double salary() {<br> 
-               return salary=hourOfWork*100 ;<br> 
-           }
-           <br> 
-           @Override<br> 
-           public void setEmployee() {<br> 
-            Scanner input =new Scanner(System.in);<br>  
-               System.out.print("Enter the name : ");<br> 
-               name=input.nextLine();<br> 
-               Scanner input2 =new Scanner(System.in);<br>  
-               System.out.print("Enter the age : ");<br> 
-               age=input2.nextInt();<br> 
-               Scanner input3 =new Scanner(System.in); <br> 
-               System.out.print("Enter the title : ");<br> 
-               title=input3.nextLine();<br> 
-               Scanner input4 =new Scanner(System.in); <br> 
-               System.out.print("Enter the hour of work : ");<br> 
-               hourOfWork=input4.nextDouble();<br> 
-           }<br> 
-       
-           @Override<br> 
-           public void showEmployee() {<br> 
-               System.out.println("name is " + name +" age is "+ age +"the title is "+ title + "hour of work is " + hourOfWork + " his salary is " + salary());
-               <br> 
-            }<br> 
-       }<br> <br> 
-       
-       
-       
-      </section>
 </body>
 <script src="work/jquery/jquery-3.5.1.min.js"></script>
 <script src="work/Bootstrap/js_bootstrap/popper.min.js"></script>
